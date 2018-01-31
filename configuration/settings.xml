@@ -131,16 +131,16 @@
       <id>example-proxy</id>
       <active>true</active>
       <protocol>http</protocol>
-      <host>${env.HTTP_PROXY_HOST}</host>
-      <port>${env.HTTP_PROXY_PORT}</port>
+      <host>${env.CUSTOM_PROXY_HOST}</host>
+      <port>${env.CUSTOM_PROXY_PORT}</port>
       <nonProxyHosts>${env.NO_PROXY}}</nonProxyHosts>
     </proxy>
    <proxy>
       <id>example-proxy-https</id>
       <active>true</active>
       <protocol>https</protocol>
-      <host>${env.HTTPS_PROXY_HOST}</host>
-      <port>${env.HTTPS_PROXY_PORT}</port>
+      <host>${env.CUSTOM_PROXY_HOST}</host>
+      <port>${env.CUSTOM_PROXY_PORT}</port>
       <nonProxyHosts>${env.NO_PROXY}}</nonProxyHosts>
     </proxy>
   </proxies>
