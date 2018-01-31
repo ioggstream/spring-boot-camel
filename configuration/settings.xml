@@ -140,7 +140,7 @@
       <active>true</active>
       <protocol>https</protocol>
       <host>${env.FOO}</host>
-      <port>8080</port>
+      <port>${env.FOO_PORT}</port>
       <nonProxyHosts>${env.NO_PROXY}}</nonProxyHosts>
     </proxy>
   </proxies>
